@@ -1,0 +1,33 @@
+<ion-content class="ion-padding">
+  <div class="logo-wrapper">
+    <img
+      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSPWJEycuLXUiIFPV2XG056TtAG0iJX6lJag&usqp=CAU"
+    />
+  </div>
+  <ion-list class="form-wrapper">
+    <ion-item>
+      <ion-label position="floating">
+        <ion-icon name="mail"></ion-icon>
+        E-mail
+      </ion-label>
+      <ion-input type="email"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="floating">
+        <ion-icon name="lock-closed"></ion-icon>
+        Senha
+      </ion-label>
+      <ion-input type="password"></ion-input>
+    </ion-item>
+  </ion-list>
+  <ion-button
+    expand="full"
+    class="continue-button"
+    [routerLink]="['/tabs/tab2']"
+    >Continue</ion-button
+  >
+</ion-content>
+
+<ion-footer class="ion-text-center">
+  <p class="footer-text">Não tem uma conta? <a href="#">Cadastre-se</a></p>
+</ion-footer>

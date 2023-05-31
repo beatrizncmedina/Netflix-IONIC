@@ -1,0 +1,27 @@
+ion-content {
+  --background-color: #b4131d;
+  ion-slides {
+    height: 79vh;
+    background-color: #b4131d;
+
+    ion-slide {
+      ion-card {
+        ion-card-content {
+          ion-img {
+            height: 200px;
+            width: 200px;
+            object-fit: cover;
+            border-radius: 50%;
+            margin: 0 auto;
+          }
+
+          h3 {
+            text-align: center;
+            margin-top: 16px;
+            font-size: 18px;
+          }
+        }
+      }
+    }
+  }
+}
